@@ -1,0 +1,136 @@
+.todoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5em auto;
+    padding: 2em;
+    background-color: #e6f7ff;
+    background-image: linear-gradient(to bottom right, #e6f7ff, #a7d8ff);
+    width: 50%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.inputGroup {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.todoInput {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #a7d8ff;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.submitButton {
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.submitButton:hover {
+    background-color: #4cae4c;
+}
+
+.deleteAllButon {
+    padding: 10px 20px;
+    background-color: #ff1d1d;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 2em;
+
+}
+
+
+.deleteAllButon:hover {
+    background-color: #d86977;
+}
+.todoList {
+    list-style: none;
+    width: 100%;
+}
+
+.todoItem {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.todoItemCompleted {
+    background-color: #0da927;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.favouriteTodo {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.deleteButton {
+
+    padding: 10px 20px;
+    margin-right: 2em;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.favouriteButton {
+
+    padding: 10px 20px;
+    background-color: #e59c12;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 2em;
+}
+
+.editButton{
+
+    padding: 10px 20px;
+    background-color: #442fa9;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}

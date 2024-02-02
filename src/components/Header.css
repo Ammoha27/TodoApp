@@ -1,0 +1,31 @@
+/* Header.css */
+.main-header {
+    background-color: white; /* Dunkelgrauer Hintergrund */
+    display: flex;
+    justify-content: space-around;
+    color: white; /* Weiße Schrift */
+    padding: 10px 20px; /* Innenabstand */
+    border-bottom: 2px solid #46ae2f; /* Untere Grenze für etwas Tiefe */
+
+}
+
+.link {
+    font-size: 20px;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    padding-left: 10em;
+    padding-right: 10em;
+}
+.link2 {
+    font-size: 20px;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    padding-right: 10em;
+}
+
+.link :hover {
+    text-decoration: underline;
+}
+
